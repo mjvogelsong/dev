@@ -1,0 +1,59 @@
+{
+  // Editor
+  "editor.rulers": [100, 120],
+  "editor.insertSpaces": true,
+  // Line Wrapping
+  "rewrap.autoWrap.enabled": true,
+  "rewrap.reformat": true,
+  "rewrap.wrappingColumn": 120,
+  // Formatter Defaults
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.fixAll": "explicit"
+  },
+  // Python
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.formatOnSave": true
+  },
+  "ruff.lint.args": ["--config", "pyproject.toml"],
+  "ruff.fixAll": true,
+  "mypy-type-checker.path": [".venv/bin/mypy"],
+  "autoDocstring.docstringFormat": "sphinx-notypes",
+  // Shell
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  // TOML
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "evenBetterToml.formatter.reorderKeys": true,
+  "evenBetterToml.formatter.reorderArrays": true,
+  "evenBetterToml.formatter.compactArrays": true,
+  "evenBetterToml.formatter.compactEntries": false,
+  "evenBetterToml.formatter.compactInlineTables": true,
+  "evenBetterToml.formatter.trailingNewline": true,
+  "evenBetterToml.formatter.alignEntries": false,
+  "evenBetterToml.formatter.alignComments": false,
+  // JSON
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // YAML
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // Markdown
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "markdown.extension.orderedList.marker": "one"
+  // Spell Checker
+  // "cSpell.userWords": []
+}
